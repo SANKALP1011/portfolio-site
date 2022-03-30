@@ -11,7 +11,7 @@ export const Timeline=() => {
     return <>
       <div className="timeline">
       <div className="TimeLinebox rightBox" data-aos="fade-down-right">
-    <div className="date">2022-Current</div>
+    <div className="date">2022-Now</div>
     <i className="icon fas fa-code"></i>
     <div className="content">
       <h2>Apple Developers Group</h2>
