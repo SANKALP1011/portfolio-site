@@ -18,22 +18,23 @@
 .custom-shape-divider-top-1642097561 .shape-fill {
     fill: #9E0861;
 }
-
+h2{
+    color: white;
+}
 /*TEXT*/
 .MainHeading{
     margin: 10% 10% 2% 10%;
 }
 .Hello{
     font-size: 60px;
-    color: white;
     word-wrap: break-word;
 }
-.name{
+.Name{
     font-size: 60px;
     color: white;
     word-wrap: break-word;
     line-height: 1;
-    margin-top: 3%;  
+    margin-top: 5%;  
 }
 
 .FirstText{
@@ -101,7 +102,7 @@ p{
     height: 350px;
 }
 .ProjectsTitle{
-    margin: 15% 2% 2% 15%;
+    margin: 15% 3% 2% 15%;
     color: #FF008E;
     font-size: 70px;
     font-weight: bolder;
@@ -111,7 +112,7 @@ p{
     word-wrap: break-word;
     color: white;
     font-weight: bold;
-    margin: 7% 2% 2% 15%;
+    margin: 10% 2% 2% 15%;
 }
 .ProjectAnimatedText{
     color: #9E0861;
@@ -141,4 +142,3 @@ p{
 .custom-shape-divider-bottom-1642097969 .shape-fill {
     fill: #511845;
 }
-
