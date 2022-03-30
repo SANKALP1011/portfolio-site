@@ -3,6 +3,8 @@ import "../styles/index.css";
 import Tilt from "react-tilt";
 import emailjs from '@emailjs/browser'
 import { useRef } from "react";
+import swal from 'sweetalert';
+
 
 export const ContactCard = () =>{
 
@@ -13,6 +15,7 @@ const form = useRef();
 	  emailjs.sendForm('service_teuh7a5', 'template_efoh0zh', e.target, 'user_X5oJqaowexoYLwMZ6OO72')
 		.then((result) => {
 			console.log(result.text);
+			swal("Message sent", "Please wait , I'll reply back to you shortly!", "success");
 		}, (error) => {
 			console.log(error.text);
 		});
