@@ -1,0 +1,144 @@
+.custom-shape-divider-top-1642097561 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1642097561 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 216px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1642097561 .shape-fill {
+    fill: #9E0861;
+}
+
+/*TEXT*/
+.MainHeading{
+    margin: 10% 10% 2% 10%;
+}
+.Hello{
+    font-size: 60px;
+    color: white;
+    word-wrap: break-word;
+}
+.name{
+    font-size: 60px;
+    color: white;
+    word-wrap: break-word;
+    line-height: 1;
+    margin-top: 3%;  
+}
+
+.FirstText{
+    color: #FF4C29;
+    margin-top: 7%;  
+}
+.SecondtEXT{
+    color: #3E065F;
+    margin-top: 7%;  
+}
+.ThirdText{
+    color: #FF2E63;
+    margin-top: 7%;  
+}
+.FourthText{
+    color: #FFF338;
+    margin-top: 7%;  
+}
+.FifthText{
+    color: #FF008E;
+    margin-top: 7%;  
+}
+.SixthText{
+    color: #FF0000;
+    margin-top: 7%;  
+}
+.SeventhText{
+    color: #C0FEFC;
+    margin-top: 7%;  
+}
+.Sub{
+    font-size: 50px;
+    padding: 0% 1% 1% 1%;
+}
+.SocialIcons{
+ padding: 2% 2% 2% 0%;
+}.SocialIconsImages{
+    padding: 1% 1% 1% 1%;
+}
+.MainImage{
+    margin: 10% auto 10% auto;
+    width: 450px;
+    height: 450px;
+}
+
+
+.AboutSubText{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+  word-wrap: break-word;
+}
+p{
+    color: whitesmoke;
+}
+.AnimatedText{
+    color: #F70776;
+}
+.ProjectArea{
+    margin: 3% 10% 2% 10%;
+}
+.ProjectImage{
+    width: 350px;
+    height: 350px;
+}
+.ProjectsTitle{
+    margin: 15% 2% 2% 15%;
+    color: #FF008E;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.SubProject{
+    line-height: 1;
+    word-wrap: break-word;
+    color: white;
+    font-weight: bold;
+    margin: 7% 2% 2% 15%;
+}
+.ProjectAnimatedText{
+    color: #9E0861;
+}
+.ProjectButton{
+    text-align: center;
+    margin: 2% 3% 2% 15%;
+}
+.custom-shape-divider-bottom-1642097969 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 2%;
+}
+
+.custom-shape-divider-bottom-1642097969 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 216px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1642097969 .shape-fill {
+    fill: #511845;
+}
+

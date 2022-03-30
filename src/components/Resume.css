@@ -1,0 +1,88 @@
+ 
+ h1 {
+    font-size: 3rem;
+    font-family: 'Prompt', sans-serif;
+  }
+  .TimeLineText{
+    margin: 5% 0% 2% 5%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #000000;
+  }
+  .TimeLineSubText{
+    margin: 5% 0% 2% 5%;
+  }
+  .Tanimation{
+   color: #000000;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  body {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #000000;
+    overflow-x: hidden;
+  }
+  section {
+    position: relative;
+    display: flex;
+    min-height: 500px;
+    padding-top: 50px;
+  }
+.blue{
+    background: #ff0066;
+}
+.dark{
+    background: #000000;
+}
+
+.Certificates{
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ResumeImage{
+  width: 300px;
+  height: 300px;
+  margin-top: 1%;
+}
+
+      .curve {
+        position: absolute;
+        height: 250px;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        z-index: 0;
+      }
+
+      .curve::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        transform: translate(85%, 60%);
+        background-color: #000000;
+      }
+
+      .curve::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #ff0066;
+        transform: translate(-4%, 40%);
+      }
+
+      @media (max-width: 600px) {
+        .Certificates{
+          font-size: 30px;
+        }
+      }

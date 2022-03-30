@@ -1,0 +1,144 @@
+.custom-shape-divider-top-1643035441 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643035441 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 185px;
+}
+
+.custom-shape-divider-top-1643035441 .shape-fill {
+    fill: #020350;
+}
+
+
+.WebMainText{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin: 10% 10% 5% 10%;
+   
+}
+.SubprojectText{
+    margin: 0% 10% 1% 10%;
+    font-size: 25px;
+    line-height: 1;
+    word-wrap: break-word;
+}
+.WebSpanText{
+    color: #480032;
+}
+.WebImage{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 300px;
+    height: 300px;
+}
+.ProjectBlocks{
+    margin: 2% 10% 2% 10%;
+}
+@media (max-width: 600px) {
+    .ProjectBlocks{
+   margin: 2% 25% 2% 20%;
+    }
+}
+@media (max-width: 475px) {
+    .ProjectBlocks{
+        margin: 2% 25% 2% 20%; 
+    }
+}
+.Blocks{
+    justify-content: center;
+align-items: center;
+max-width: 100px;
+flex-wrap: wrap;
+padding: 20px 0;
+
+}
+.Blocks .ProjectBox{
+   position: relative;
+   min-width: 300px;
+   height: 350px;
+   box-shadow: inset 10px 5px 20px rgba(0,0,0,0.2),
+                inset -5px -5px 20px rgba(255, 255,255,0.1),
+                5px 5px 30px rgba(0,0,0,0.3),
+                -5px -5px 15px rgba(255, 255,255,0.1);
+
+  border-radius: 15px;
+}
+.Blocks .ProjectBox .SubProjectBox{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #000000;
+    border: 2px solid #1e1f23;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+
+}
+.Blocks .ProjectBox .SubProjectBox:hover{
+    transform: translateY(-50px);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+.Blocks .ProjectBox .SubProjectBox .ProjectContent{
+  text-align: center;
+  padding: 5px;
+
+}
+a{
+    margin: 2% 2% 2% 2%;
+}
+.AboutProject{
+    line-height: 1;
+    word-wrap: break-word;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.ProjectTitle{
+    color: #a8eb12;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.AppTitle{
+    color: orangered;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.Cthre{
+    color: #a8eb12;
+    margin-left: 5%;
+}
+.LinkButtons{
+    margin-top: 20%;
+}
+.custom-shape-divider-bottom-1643035612 {
+   margin-top: 10%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1643035612 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 185px;
+}
+
+.custom-shape-divider-bottom-1643035612 .shape-fill {
+    fill: #480032;
+}

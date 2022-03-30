@@ -1,0 +1,151 @@
+.custom-shape-divider-top-1642690743 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1642690743 svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 188px;
+}
+
+.custom-shape-divider-top-1642690743 .shape-fill {
+  fill: #FFF323;
+}
+.ContactMetEXT{
+  margin: 3% 5% 3% 20%;
+}
+.ContactMe{
+  margin: 2% 10% 1% 15%;
+  height: 200px;
+  width: 200px;
+}
+.ContachHeading{
+  margin-top: 3%;
+}
+.ConnectedTextOne{
+  color: #FFC900;
+  font-weight: bolder;
+  font-size: 40px;
+  
+}
+.ConnectedTextTwo{
+  color: #4E9F3D;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextThree{
+  color: #E60965;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextFour{
+  color: #AEFEFF;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextFive{
+  color: #FC5404;
+  margin-left: 3%;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextSix{
+  color: #8C0000;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextSeven{
+  color: #2A1A5E;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextEight{
+  color: #DA0037;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextNine{
+  color: #6A097D;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextNine{
+  color: #F1EBBB;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextTen{
+  color: #E60965;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+.ConnectedTextEleven{
+  color: #FFC900;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextTwleve{
+  color: #3E065F;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.ConnectedTextThird{
+  color: #77D970;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.SocialIcons{
+  padding: 2% 2% 2% 0%;
+ }.SocialIconsImages{
+     padding: 1% 1% 1% 1%;
+ }
+ /* hh */
+
+.form-group{
+  margin: 2% 2% 2% 2%;
+  border-radius: 20px;
+  box-shadow: white;
+}
+.ContactMeSubtext{
+  line-height: 1;
+  word-wrap: break-word;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 7% 5% 0% 0%;
+}
+.ContactAnimatedText{
+  color: #E60965;
+}
+
+
+
+
+.custom-shape-divider-bottom-1642690813 {
+margin-top: 2%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642690813 svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 239px;
+}
+
+.custom-shape-divider-bottom-1642690813 .shape-fill {
+  fill: #980F5A;
+}
+
+

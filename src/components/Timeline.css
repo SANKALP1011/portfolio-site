@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #F4EEFF;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.TimeLinebox {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.TimeLinebox.leftBox {
+  left: 0;
+}
+
+.TimeLinebox.rightBox {
+  left: 50%;
+}
+
+.TimeLinebox::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  border: 2px solid #F4EEFF;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.TimeLinebox.rightBox::after {
+  left: -8px;
+}
+
+.TimeLinebox::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #F4EEFF;
+  z-index: 1;
+}
+
+.TimeLinebox.rightBox::before {
+  left: 8px;
+}
+
+.TimeLinebox .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #F4EEFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.TimeLinebox.leftBox .date {
+  right: -130px;
+}
+
+.TimeLinebox.rightBox .date {
+  left: -130px;
+}
+
+.TimeLinebox .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #FF2E63;
+  border: 2px solid #F4EEFF;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #F4EEFF;
+  z-index: 1;
+}
+
+.TimeLinebox.leftBox .icon {
+  right: 56px;
+}
+
+.TimeLinebox.rightBox .icon {
+  left: 56px;
+}
+
+.TimeLinebox .content {
+  padding: 30px 90px 30px 30px;
+  background: #FF2E63;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+
+.TimeLinebox.rightBox .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.TimeLinebox .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #F4EEFF;
+}
+
+.TimeLinebox .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .TimeLinebox {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .TimeLinebox.rightBox {
+    left: 0%;
+  }
+
+  .TimeLinebox.leftBox::after, 
+  .TimeLinebox.rightBox::after {
+    left: 82px;
+  }
+
+  .TimeLinebox.leftBox::before,
+  .TimeLinebox.rightBox::before {
+    left: 100px;
+    border-color: transparent transparent transparent;
+  }
+
+  .TimeLinebox.leftBox .date,
+  .TimeLinebox.rightBox .date {
+    right: auto;
+    left: 0px;
+  }
+
+  .TimeLinebox.leftBox .icon,
+  .TimeLinebox.rightBox .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .TimeLinebox.leftBox .content,
+  .TimeLinebox.rightBox .content{
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}
+
+
