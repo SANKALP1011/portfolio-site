@@ -123,19 +123,10 @@ body {
   
   /* 48em = 768px */
   
+  
   @media (min-width: 600px) {
-    .header{
-      min-height: 100vh;
-      z-index: 1;
-    }
-
-    .menu{
-      background-color: aqua;
-      z-index: 1;
-    }
     .header li {
       float: left;
-      z-index: 1;
     }
     .header li a {
       padding: 10px 10px;
@@ -144,7 +135,6 @@ body {
       clear: none;
       float: right;
       max-height: none;
-      z-index: 1;
     }
     .header .menu-icon {
       display: none;
