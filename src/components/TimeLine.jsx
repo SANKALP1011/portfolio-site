@@ -16,7 +16,7 @@ export const Timeline=() => {
     <div className="content">
       <h2>Formi</h2>
       <p>
-        Working as the full stack intern developer.
+        Working as the full stack intern developer where I am developing their site.
       </p>
     </div>
   </div>
