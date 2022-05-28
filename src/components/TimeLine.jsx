@@ -10,16 +10,6 @@ export const Timeline=() => {
    },[]);
     return <>
       <div className="timeline">
-      <div className="TimeLinebox leftBox" data-aos="fade-down-left">
-    <div className="date">2022-Now</div>
-    <i className="icon fas fa-university"></i>
-    <div className="content">
-      <h2>Formi</h2>
-      <p>
-        Working as the full stack intern developer where I am developing their site.
-      </p>
-    </div>
-  </div>
       <div className="TimeLinebox rightBox" data-aos="fade-down-right">
     <div className="date">2022-Now</div>
     <i className="icon fas fa-code"></i>

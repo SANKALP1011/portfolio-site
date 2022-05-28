@@ -53,6 +53,109 @@ export const Projects = () =>{
     </div>
 
     <div className="ProjectBlocks grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 xs:justify-center">
+    <div className="Blocks" data-aos="fade-up-left">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Booking api</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is ongoing backend for the booking system app built using express and node and uses mysql as the database and will be deployed on heroku.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://github.com/SANKALP1011/BookingSystem"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/BookingSystem"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-right">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Booking app</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This the ongoing all in one booking app where you can book plane , flight and cabs ticket in single application. Api is also designed by me.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://github.com/SANKALP1011/BookingSystem"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/BookingSystem"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-left">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Photo engine</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is the image search engine which is built using react as framework and consumes unsplash api.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://unsplashapiengine.vercel.app"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/unsplashapiengine"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-right">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Tweet-x</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is frontend for the tweet-x web app which is built using react as framework and will be conncted to node and express based backend.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://tweet-x-ten.vercel.app/"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/tweet-x"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-left">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Anime app</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+ This is an anime app that is build uisng react as framework and fetches the info from the anime api with dedicated routes.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://anime-app-ebon.vercel.app"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/anime_app"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div className="Blocks" data-aos="fade-up-right">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Weather Api</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is the express based weather api that displays live weather information and stores the information to the database.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://my-weather-apiii.herokuapp.com/"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/WeatherApi"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <div className="Blocks" data-aos="fade-down-left">
         <div className="ProjectBox">
             <div className="SubProjectBox">
