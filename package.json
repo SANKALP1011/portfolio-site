@@ -32,7 +32,7 @@
   },
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
-    "start": " export NODE_OPTIONS=--openssl-legacy-provider; react-scripts --openssl-legacy-provider start",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider; react-scripts --openssl-legacy-provider start",
     "build": "CI=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

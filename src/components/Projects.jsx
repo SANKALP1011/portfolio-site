@@ -57,6 +57,40 @@ export const Projects = () =>{
         <div className="ProjectBox">
             <div className="SubProjectBox">
                 <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Data Dashboard</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is data visualisation dashboard which is built using react as frontend and uses chart.js visualising user data which is in json format.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://data-visualisation-dashbaord.vercel.app/"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/data-visualisation-dashbaord"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-right">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
+                       <h2 className="ProjectTitle">Maps App</h2>
+                       <h2 className="ContactUs"></h2>
+                       <p className="AboutProject">
+This is a web app which uses react as the frontend and google maps api to calculate the distance , route and duration to reach a place.
+                       </p>
+                       <div className="LinkButtons">
+                       <a href="https://react-google-mapsroute.netlify.app/"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Live</button></a>
+                       <a href="https://github.com/SANKALP1011/react-google-map"><button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Code</button></a>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="Blocks" data-aos="fade-up-left">
+        <div className="ProjectBox">
+            <div className="SubProjectBox">
+                <div className="ProjectContent">
                        <h2 className="ProjectTitle">Booking api</h2>
                        <h2 className="ContactUs"></h2>
                        <p className="AboutProject">

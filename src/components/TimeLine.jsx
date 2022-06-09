@@ -10,6 +10,16 @@ export const Timeline=() => {
    },[]);
     return <>
       <div className="timeline">
+      <div className="TimeLinebox leftBox" data-aos="fade-down-left">
+    <div className="date">June-Now</div>
+    <i className="icon fas fa-code"></i>
+    <div className="content">
+      <h2>Bxtended</h2>
+      <p>
+          Working as backend intern for a australian user based company which provides project management technologies for the companies.
+      </p>
+    </div>
+  </div>
       <div className="TimeLinebox rightBox" data-aos="fade-down-right">
     <div className="date">2022-Now</div>
     <i className="icon fas fa-code"></i>
