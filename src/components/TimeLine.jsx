@@ -47,7 +47,6 @@ export const Timeline=() => {
       <h2>Delhi Public School</h2>
       <p>
        Completed my schooling from Delhi Public School , Lucknow between the year's 2014-2020,
-       Percentage of high school and secondary high school would be attcahed in resume.
       </p>
     </div>
   </div>
