@@ -54,7 +54,7 @@ export const Main = () => {
             
             </h1>
             <p> I am a <span className="AnimatedText"  ref={AnimatedTextOne}></span></p>
-            <p className="AboutSubText">Second year student at Vellore Institute of Technology , Vellore purusing <span className="AnimatedText">Computer Science.</span> </p>
+            <p className="AboutSubText">Third year student at Vellore Institute of Technology , Vellore purusing <span className="AnimatedText">Computer Science.</span> </p>
             <SocialICons />
         </div>
         <div className="MainImage" data-aos="fade-left">

@@ -46,9 +46,9 @@ import "aos/dist/aos.css";
                I LOVE  <span ref={AnimatedText} className="AnimatedText"></span>
                </h2>
                <div className="TextParagraph xs:text-xs sm:text-sm md:text-lg  xs:text-overflow" data-aos="fade-down-left">
-               <p className="AboutMePara xs:p-4 xs:text-center">Well, I am second year student who is pursuing integrated bachelor's and master's of technology from Vellore Institute of Technology , Vellore in computer science field. I 
+               <p className="AboutMePara xs:p-4 xs:text-center">Well, I am third  year student who is pursuing integrated bachelor's and master's of technology from Vellore Institute of Technology , Vellore in computer science field. I 
             am die hard barcelona fan. I started watching formula one around 8-9 months and now I could proudly say that I know a lot about formuala one. My github journey coould be summed in three words which would be push 
-            || pull || commit . I love to hit the gym specially on the pull days. Sadly , I have never seen my college because I am a second year student that in Vit. Also , do hover below the blocks below !
+            || pull || commit . I love to hit the gym specially on the pull days. Also , do hover below the blocks below !
                </p>
                </div>
                <div className="AboutBlocks grid lg:grid-cols-3 sm:grid-cols-2 xs: grid-cols-2 md:grid-cols-3">

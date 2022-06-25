@@ -56,7 +56,7 @@ export const Timeline=() => {
     <div className="content">
       <h2>Little Flower School</h2>
       <p>
-     Since my father got transferred a lot so I completed my elementary classes from Little Flower School , Gorakhpur.
+       Completed my schooling from Little Flower School , Gorakhpur between the year's 2008-2013
       </p>
     </div>
   </div>
