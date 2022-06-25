@@ -46,7 +46,7 @@ export const Timeline=() => {
     <div className="content">
       <h2>Delhi Public School</h2>
       <p>
-       Completed my schooling from Delhi Public School , Lucknow between the year's 2014-2020,
+       Completed my schooling from Delhi Public School , Lucknow between the year's 2014-2020.
       </p>
     </div>
   </div>
@@ -56,7 +56,7 @@ export const Timeline=() => {
     <div className="content">
       <h2>Little Flower School</h2>
       <p>
-       Completed my schooling from Little Flower School , Gorakhpur between the year's 2008-2013
+       Completed my schooling from Little Flower School , Gorakhpur between the year's 2008-2014.
       </p>
     </div>
   </div>
