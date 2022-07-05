@@ -67,7 +67,7 @@ export const Skills = () =>{
     <p className="SkillText"  data-aos="fade-left">SWIFT</p>
     <div className="bar back advanced" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">JAVA</p>
-    <div className="bar front ametuer" data-skill=""  data-aos="fade-right"></div>
+    <div className="bar front intermediate" data-skill=""  data-aos="fade-right"></div>
     <p className="SkillText"  data-aos="fade-left" >SHELL</p>
     <div className="bar colour2 intermediate" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">SQL</p>
@@ -79,6 +79,10 @@ export const Skills = () =>{
     <p className="SkillText"  data-aos="fade-left">JAVASCRIPT</p>
     <div className="bar colour6 intermediate" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">R</p>
+    <div className="bar colour7 ametuer" data-skill=""  data-aos="fade-right"></div>
+    <p className="SkillText"  data-aos="fade-left">Python</p>
+    <div className="bar colour6 intermediate" data-skill=""  data-aos="fade-left"></div>
+    <p className="SkillText"  data-aos="fade-right">Typescript</p>
     <div className="bar colour7 ametuer" data-skill=""  data-aos="fade-right"></div>
  </div>
 
@@ -110,11 +114,13 @@ export const Skills = () =>{
     <p className="SkillText"  data-aos="fade-right">MONGO</p>
     <div className="bar front intermediate" data-skill=""  data-aos="fade-right"></div>
     <p className="SkillText"  data-aos="fade-left">REACT</p>
-    <div className="bar colour2 intermediate" data-skill=""  data-aos="fade-left"></div>
+    <div className="bar colour2 advanced" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">NEXT</p>
-    <div className="bar colour7 ametuer" data-skill=""  data-aos="fade-right"></div>
-    <p className="SkillText"  data-aos="fade-left">REALM</p>
-    <div className="bar colour3 intermediate" data-skill=""  data-aos="fade-left"></div>
+    <div className="bar colour7 advanced" data-skill=""  data-aos="fade-right"></div>
+    <p className="SkillText"  data-aos="fade-left">Angualar</p>
+    <div className="bar colour2 intermediate" data-skill=""  data-aos="fade-left"></div>
+    <p className="SkillText"  data-aos="fade-right">REALM</p>
+    <div className="bar colour3 intermediate" data-skill=""  data-aos="fade-right"></div>
     <p className="SkillText"  data-aos="fade-right">TAILWIND</p>
     <div className="bar colour4 advanced" data-skill=""  data-aos="fade-right"></div>
     <p className="SkillText"  data-aos="fade-left">BOOTSTRAP</p>
