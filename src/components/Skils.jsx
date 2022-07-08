@@ -80,10 +80,10 @@ export const Skills = () =>{
     <div className="bar colour6 intermediate" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">R</p>
     <div className="bar colour7 ametuer" data-skill=""  data-aos="fade-right"></div>
-    <p className="SkillText"  data-aos="fade-left">Python</p>
+    <p className="SkillText"  data-aos="fade-left">PYTHON</p>
     <div className="bar colour6 intermediate" data-skill=""  data-aos="fade-left"></div>
-    <p className="SkillText"  data-aos="fade-right">Typescript</p>
-    <div className="bar colour7 ametuer" data-skill=""  data-aos="fade-right"></div>
+    <p className="SkillText"  data-aos="fade-right">TYPESCRIPT</p>
+    <div className="bar colour7 advanced" data-skill=""  data-aos="fade-right"></div>
  </div>
 
 <div className="grid lg:grid-cols-2 md:grid-cols-2 xs:grid-cols-1">
@@ -117,7 +117,7 @@ export const Skills = () =>{
     <div className="bar colour2 advanced" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">NEXT</p>
     <div className="bar colour7 advanced" data-skill=""  data-aos="fade-right"></div>
-    <p className="SkillText"  data-aos="fade-left">Angualar</p>
+    <p className="SkillText"  data-aos="fade-left">ANGULAR</p>
     <div className="bar colour2 intermediate" data-skill=""  data-aos="fade-left"></div>
     <p className="SkillText"  data-aos="fade-right">REALM</p>
     <div className="bar colour3 intermediate" data-skill=""  data-aos="fade-right"></div>
