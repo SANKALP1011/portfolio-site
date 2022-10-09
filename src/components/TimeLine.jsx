@@ -16,7 +16,11 @@ export const Timeline = () => {
             <h2>Applied Computing</h2>
             <p>
               Working as the frontend developer using React.js for a banglore
-              based company which provides software solutions to it's clients.
+              based company which provides software solutions to it's clients. I
+              completely designed the web page from the scratch by creating a
+              wireframe then converting then wireframe into a figma mockup and
+              finally coding that mockup using the react.js as framework. I
+              completed all this task within a time span of three weeks.
             </p>
           </div>
         </div>
@@ -26,8 +30,11 @@ export const Timeline = () => {
           <div className="content">
             <h2>Bxtended</h2>
             <p>
-              Working as backend intern for a australian user based company
-              which provides project management technologies for the companies.
+              Worked as backend intern for a australian user based company which
+              provides project management technologies for the companies. I
+              added two new api features to deal with push notifications in
+              node.js and express.js for the user and created new features for
+              the frontend using angular.js
             </p>
           </div>
         </div>
