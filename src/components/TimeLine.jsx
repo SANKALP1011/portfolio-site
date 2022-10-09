@@ -10,7 +10,7 @@ export const Timeline = () => {
     <>
       <div className="timeline">
         <div className="TimeLinebox rightBox" data-aos="fade-down-right">
-          <div className="date">September-Now</div>
+          <div className="date">Sept-Now</div>
           <i className="icon fas fa-code"></i>
           <div className="content">
             <h2>Applied Computing</h2>
