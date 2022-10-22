@@ -3,10 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0;
 }
-
 
 .timeline {
   position: relative;
@@ -17,10 +16,10 @@ body{
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 2px;
-  background: #F4EEFF;
+  background: #f4eeff;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -43,13 +42,13 @@ body{
 }
 
 .TimeLinebox::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
   top: calc(50% - 8px);
   right: -8px;
-  border: 2px solid #F4EEFF;
+  border: 2px solid #f4eeff;
   border-radius: 16px;
   z-index: 1;
 }
@@ -59,13 +58,13 @@ body{
 }
 
 .TimeLinebox::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 50px;
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #F4EEFF;
+  background: #f4eeff;
   z-index: 1;
 }
 
@@ -80,7 +79,7 @@ body{
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #F4EEFF;
+  color: #f4eeff;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -101,12 +100,12 @@ body{
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #FF2E63;
-  border: 2px solid #F4EEFF;
+  background: #ff2e63;
+  border: 2px solid #f4eeff;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #F4EEFF;
+  color: #f4eeff;
   z-index: 1;
 }
 
@@ -120,7 +119,7 @@ body{
 
 .TimeLinebox .content {
   padding: 30px 90px 30px 30px;
-  background: #FF2E63;
+  background: #ff2e63;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -134,7 +133,7 @@ body{
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #F4EEFF;
+  color: #f4eeff;
 }
 
 .TimeLinebox .content p {
@@ -159,7 +158,7 @@ body{
     left: 0%;
   }
 
-  .TimeLinebox.leftBox::after, 
+  .TimeLinebox.leftBox::after,
   .TimeLinebox.rightBox::after {
     left: 82px;
   }
@@ -183,10 +182,8 @@ body{
   }
 
   .TimeLinebox.leftBox .content,
-  .TimeLinebox.rightBox .content{
+  .TimeLinebox.rightBox .content {
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
 }
-
-

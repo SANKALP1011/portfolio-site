@@ -1,97 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
 
- 
- h1 {
-    font-size: 3rem;
-    font-family: 'Prompt', sans-serif;
-  }
-  .TimeLineText{
-    margin-left: 2%;
-    font-size: 50px;
-    font-weight: bolder;
-  }
-  p {
-    font-size: 1.5rem;
-  }
-  body {
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    color: white;
-    background: #000000;
-  }
-  section {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    min-height: 500px;
-    padding-top: 50px;
-  }
-.blue{
-    background: #3c31dd;
+h1 {
+  font-size: 3rem;
+  font-family: "Prompt", sans-serif;
 }
-.dark{
-    background: #000000;
+.TimeLineText {
+  margin-left: 2%;
+  font-size: 50px;
+  font-weight: bolder;
+}
+p {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  color: white;
+  background: #000000;
+}
+section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  padding-top: 50px;
+}
+.blue {
+  background: #3c31dd;
+}
+.dark {
+  background: #000000;
 }
 .pink {
   background: #ff0066;
 }
 
-      .curve {
-        position: absolute;
-        height: 250px;
-        width: 100%;
-        bottom: 0;
-        text-align: center;
-      }
+.curve {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
 
-      .curve::before {
-        content: '';
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        transform: translate(85%, 60%);
-        background-color: #000000;
-      }
+.curve::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(85%, 60%);
+  background-color: #000000;
+}
 
-      .curve::after {
-        content: '';
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        background-color: #3c31dd;
-        transform: translate(-4%, 40%);
-        z-index: -1;
-      }
+.curve::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #3c31dd;
+  transform: translate(-4%, 40%);
+  z-index: -1;
+}
 
-      .spacer {
-        aspect-ratio: 900/600;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      }
-    
-      .layer1 {
-        background-image: url('../components/assets/layer1.svg');
-      }
-      .layer2 {
-        background-image: url('../components/assets/layer2.svg');
-      }
-    
-      .flip {
-        transform: rotate(180deg);
-      }
-      .aboutLayer{
-        background-image: url('../components/assets/About.svg');
-      }
-    
- 
+.spacer {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../components/assets/layer1.svg");
+}
+.layer2 {
+  background-image: url("../components/assets/layer2.svg");
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+.aboutLayer {
+  background-image: url("../components/assets/About.svg");
+}
+
 .custom-shape-divider-bottom-1642085737 {
-margin-top: 2%;
+  margin-top: 2%;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -108,5 +106,5 @@ margin-top: 2%;
 }
 
 .custom-shape-divider-bottom-1642085737 .shape-fill {
-  fill: #FF0066;
+  fill: #ff0066;
 }
