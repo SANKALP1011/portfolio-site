@@ -81,8 +81,41 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className="ProjectBlocks grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 xs:justify-center">
+        <div className="ProjectBlocks grid lg:grid-cols-3 md:grid-cols-3 xs:grid-cols-1 xs:justify-center">
           <div className="Blocks" data-aos="fade-up-left">
+            <div className="ProjectBox">
+              <div className="SubProjectBox">
+                <div className="ProjectContent">
+                  <h2 className="ProjectTitle">Reservation Web</h2>
+                  <h2 className="ContactUs"></h2>
+                  <p className="AboutProject">
+                    This is the minimal frontend for the reservation api which
+                    is built using the react.js as the framework and is built to
+                    showcase the features the reservation api.
+                  </p>
+                  <div className="LinkButtons">
+                    <a href="http://reservationweb.vercel.app/">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href="https://github.com/SANKALP1011/Reservation-web">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Blocks" data-aos="fade-up-right">
             <div className="ProjectBox">
               <div className="SubProjectBox">
                 <div className="ProjectContent">
@@ -116,7 +149,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="Blocks" data-aos="fade-up-right">
+          <div className="Blocks" data-aos="fade-up-left">
             <div className="ProjectBox">
               <div className="SubProjectBox">
                 <div className="ProjectContent">
@@ -149,7 +182,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="Blocks" data-aos="fade-up-left">
+          <div className="Blocks" data-aos="fade-up-right">
             <div className="ProjectBox">
               <div className="SubProjectBox">
                 <div className="ProjectContent">
@@ -182,7 +215,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="Blocks" data-aos="fade-up-right">
+          <div className="Blocks" data-aos="fade-up-left">
             <div className="ProjectBox">
               <div className="SubProjectBox">
                 <div className="ProjectContent">
@@ -203,39 +236,6 @@ export const Projects = () => {
                       </button>
                     </a>
                     <a href="https://github.com/SANKALP1011/react-google-map">
-                      <button
-                        type="button"
-                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-                      >
-                        Code
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="Blocks" data-aos="fade-up-left">
-            <div className="ProjectBox">
-              <div className="SubProjectBox">
-                <div className="ProjectContent">
-                  <h2 className="ProjectTitle">Booking api</h2>
-                  <h2 className="ContactUs"></h2>
-                  <p className="AboutProject">
-                    This is ongoing backend for the booking system app built
-                    using express and node and uses mysql as the database and
-                    will be deployed on heroku.
-                  </p>
-                  <div className="LinkButtons">
-                    <a href="https://github.com/SANKALP1011/BookingSystem">
-                      <button
-                        type="button"
-                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-                      >
-                        Live
-                      </button>
-                    </a>
-                    <a href="https://github.com/SANKALP1011/BookingSystem">
                       <button
                         type="button"
                         class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
