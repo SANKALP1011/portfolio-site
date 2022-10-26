@@ -95,7 +95,7 @@ export const Projects = () => {
                     with jwt.
                   </p>
                   <div className="LinkButtons">
-                    <a href="https://www.postman.com/material-observer-91426431/workspace/reservation-api/collection/24017825-e9898502-94c3-4a47-b980-89142bbf3adb?action=share&creator=24017825">
+                    <a href="https://reservation-apii.herokuapp.com/v1/">
                       <button
                         type="button"
                         class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
