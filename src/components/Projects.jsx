@@ -86,6 +86,144 @@ export const Projects = () => {
             <div className="ProjectBox">
               <div className="SubProjectBox">
                 <div className="ProjectContent">
+                  <h2 className="ProjectTitle">Version Manager Backend</h2>
+                  <h2 className="ContactUs"></h2>
+                  <p className="AboutProject">
+                    All in one version manager (on going) which would be used
+                    for providing insights and statistical analysis over your
+                    github profile. Build using node and express , having
+                    schduled jobs and various other stuff , this project is
+                    going to blow your mind.
+                  </p>
+                  <div className="LinkButtons">
+                    <a href="https://github.com/SANKALP1011/VersionManager">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href="https://github.com/SANKALP1011/VersionManager">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Blocks" data-aos="fade-up-right">
+            <div className="ProjectBox">
+              <div className="SubProjectBox">
+                <div className="ProjectContent">
+                  <h2 className="ProjectTitle">Social Backend</h2>
+                  <h2 className="ContactUs"></h2>
+                  <p className="AboutProject">
+                    This repository contains a Node.js API that integrates
+                    multiple identity providers, such as GitHub, Twitter,
+                    Facebook, and Google, using OAuth authentication process
+                    with the help of Passport.js OAuth strategies. Created an
+                    docker image and deployed the image on kubernetes cluster.
+                  </p>
+                  <div className="LinkButtons">
+                    <a href="https://social-backend-apii-a46befe33b1d.herokuapp.com/">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href="https://github.com/SANKALP1011/Social-Backend">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Blocks" data-aos="fade-up-left">
+            <div className="ProjectBox">
+              <div className="SubProjectBox">
+                <div className="ProjectContent">
+                  <h2 className="ProjectTitle">Animal Welfare App</h2>
+                  <h2 className="ContactUs"></h2>
+                  <p className="AboutProject">
+                    Built using the react native for coding out the app , this
+                    is frontend for the animal welfare api having more than 30
+                    plus screens each screen having it’s specific functionality
+                    , entirely integrated with the backend.
+                  </p>
+                  <div className="LinkButtons">
+                    <a href="https://drive.google.com/drive/folders/1E7XhKvfEH386YNy--kXZvzjGkfGqLfAl?usp=sharing">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href="https://github.com/SANKALP1011/AnimalWelfareApp">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Blocks" data-aos="fade-up-right">
+            <div className="ProjectBox">
+              <div className="SubProjectBox">
+                <div className="ProjectContent">
+                  <h2 className="ProjectTitle">Animal Welfare Api</h2>
+                  <h2 className="ContactUs"></h2>
+                  <p className="AboutProject">
+                    Built using node and express using mongoDB as the database
+                    and deployed on heroku along with swagger documentation ,
+                    this api is built for the well being of the voiceless
+                    animals who are need are help for their survival.
+                  </p>
+                  <div className="LinkButtons">
+                    <a href="https://animal-welfare-api.herokuapp.com/v1/">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href="https://github.com/SANKALP1011/AnimalHelperApi">
+                      <button
+                        type="button"
+                        class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                      >
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Blocks" data-aos="fade-up-left">
+            <div className="ProjectBox">
+              <div className="SubProjectBox">
+                <div className="ProjectContent">
                   <h2 className="ProjectTitle">Reservation Web</h2>
                   <h2 className="ContactUs"></h2>
                   <p className="AboutProject">

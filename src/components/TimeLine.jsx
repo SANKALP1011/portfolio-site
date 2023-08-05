@@ -9,6 +9,22 @@ export const Timeline = () => {
   return (
     <>
       <div className="timeline">
+        <div className="TimeLinebox leftBox" data-aos="fade-down-left">
+          <div className="date">June , 2023</div>
+          <i className="icon fas fa-code"></i>
+          <div className="content">
+            <h2>Saasden</h2>
+            <p>
+              I successfully progressed through three selection rounds and
+              received an offer for the Backend Developer role at SaasDen.
+              Selected after excelling in a rigorous selection process involving
+              a Node.js API project integrating Auth0, Azure, and Key Vault,
+              followed by a technical interview covering Node.js, cloud
+              computing, SSO, API, Docker, and Kubernetes. Impressed both the
+              backend engineer and the company's founder.
+            </p>
+          </div>
+        </div>
         <div className="TimeLinebox rightBox" data-aos="fade-down-right">
           <div className="date">Sept-Now</div>
           <i className="icon fas fa-code"></i>
